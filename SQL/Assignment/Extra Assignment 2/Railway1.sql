@@ -1,0 +1,41 @@
+-- Create database ThucTap:
+DROP DATABASE IF EXISTS ThucTap;
+CREATE DATABASE ThucTap;
+
+-- Create tables:
+USE ThucTap;
+CREATE TABLE Khoa(
+	MaKhoa 		CHAR(10) PRIMARY KEY,
+    TenKhoa 	CHAR(30) NOT NULL UNIQUE KEY,
+    SDT			CHAR(10) UNIQUE KEY
+);
+CREATE TABLE GiangVien(
+	MaGV 		INT PRIMARY KEY,
+    HoTenGV 	CHAR(30) NOT NULL,
+    Luong		DECIMAL(5,2),
+    MaKhoa		CHAR(10) NOT NULL,
+    FOREIGN KEY(MaKhoa) REFERENCES Khoa(MaKhoa)
+);
+CREATE TABLE SinhVien(
+	MaSV 		INT PRIMARY KEY,
+    HoTenSV 	CHAR(30) NOT NULL,
+    MaKhoa 		CHAR(10) NOT NULL,
+    NamSinh 	INT,
+    QueQuan		CHAR(30),
+    FOREIGN KEY(MaKhoa) REFERENCES Khoa(MaKhoa)
+);
+CREATE TABLE DeTai(
+	MaDT		CHAR(10) PRIMARY KEY,
+    TenDT		CHAR(30) NOT NULL,
+    KinhPhi 	INT,
+    NoiThucTap	CHAR(30) NOT NULL
+);
+CREATE TABLE HuongDan(
+	MaSV		INT PRIMARY KEY,
+    MaDT		CHAR(10) NOT NULL,
+    MaGV		INT NOT NULL,
+    KetQua		DECIMAL(5,2),
+    FOREIGN KEY(MaSV) REFERENCES SinhVien(MaSV),
+    FOREIGN KEY(MaDT) REFERENCES DeTai(MaDT),
+    FOREIGN KEY(MaGV) REFERENCES GiangVien(MaGV)
+);

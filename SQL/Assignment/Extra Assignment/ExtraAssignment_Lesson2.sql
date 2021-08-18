@@ -1,0 +1,39 @@
+DROP DATABASE IF EXISTS ExtraAssignment1_2;
+CREATE DATABASE ExtraAssignment1_2;
+
+-- Exercise1:
+USE ExtraAssignment1_2;
+CREATE TABLE Trainee
+(
+	TraineeID 			INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    Full_Name 			VARCHAR(50) NOT NULL,
+    Birth_Date 			TIMESTAMP NOT NULL,
+    Gender 				ENUM('Male','Female','Unknown') DEFAULT('Unknown'),
+    ET_IQ				TINYINT UNSIGNED NOT NULL,CHECK(ET_IQ<=20),
+    ET_Gmath			TINYINT	UNSIGNED NOT NULL,CHECK(ET_Gmath<=20),
+    ET_English			TINYINT	UNSIGNED NOT NULL,CHECK(ET_English<=50),
+    Training_Class		VARCHAR(20) NOT NULL,
+    Evaluation_Notes	TEXT
+);
+-- Add Column
+ALTER TABLE Trainee ADD COLUMN VTI_Account VARCHAR(30) NOT NULL UNIQUE;
+
+-- Exercise2:
+DROP TABLE IF EXISTS Table2;
+CREATE TABLE Table2(
+	ID 				MEDIUMINT UNSIGNED AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    Name 			VARCHAR(30) NOT NULL,
+    Code			CHAR(5) NOT NULL,
+    CHECK(LENGTH(Code)=5),
+    ModifiedDate	DATETIME
+);
+
+-- Exercise3:
+DROP TABLE IF EXISTS Table3;
+CREATE TABLE Table3(
+	ID				MEDIUMINT UNSIGNED AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    Name			VARCHAR(30) NOT NULL,
+    BirthDate		DATE,
+    Gender 			
+    IsDeletedFlag	BOOLEAN
+);
