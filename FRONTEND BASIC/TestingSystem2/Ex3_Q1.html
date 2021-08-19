@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 3 - Question 1</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Style the header */
+      .header {
+        background-color: yellow;
+        padding: 50px;
+      }
+      /* Container for flexboxes */
+      .row {
+        display: -webkit-flex;
+        display: flex;
+      }
+
+      /* Create three equal columns that sits next to each other */
+      .column{
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+
+      .column.right{
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+      }
+
+      .column.left{
+        -webkit-flex: 2;
+        -ms-flex: 2;
+        flex: 2;
+      }
+
+
+      /* Style the footer */
+      .footer {
+        background-color: black;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header"></div>
+
+    <div class="row">
+      <div class="column right" style="background-color: red"></div>
+      <div class="column left" style="background-color: lightgray"></div>
+    </div>
+    <div class="footer"> </div>
+  </body>
+</html>

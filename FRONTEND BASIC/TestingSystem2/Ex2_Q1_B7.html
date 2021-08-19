@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phiếu đăng ký</title>
+    <style>
+        h1{
+            color: #008000;
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+        }
+        table,td{
+            border: 1px solid #808080;
+            border-collapse: collapse;
+        }
+        table{
+            background-color: #9FF781;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        td{
+            width: 300px;
+            height: 30px;
+        }
+        #submit{
+            width: fit-content;
+            margin-left: 270px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Phiếu đăng ký tham gia chương trình khuyến mại</h1>
+    <form>
+        <table>
+            <tr>
+                <td>Họ và tên</td>
+                <td>
+                    <input type="text" name="Nane" id="Name" placeholder="Nhập họ tên">
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td>
+                    <input type="text" name="Address" id="Address" placeholder="Nhập địa chỉ">
+                </td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td>
+                    <input type="text" name="SDT" id="SDT" placeholder="Nhập số điện thoại">
+                </td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input type="radio" name="gender" id="Nam">Nam
+                    <input type="radio" name="gender" id="Nữ">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Nghề nghiệp</td>
+                <td>
+                    <input list = "Nghề">
+                    <datalist id="Nghề">
+                        <option value="Giáo viên"></option>
+                        <option value="Học sinh"></option>
+                        <option value="Cán bộ"></option>
+                        <option value="Khác"></option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>Chọn sản phâm tham gia</td>
+                <td>
+                    <select name="product" id="product">
+                        <option value="">Kem đánh răng</option>
+                        <option value="">Bột giặt</option>
+                        <option value="">Dầu gội đầu</option>
+                        <option value="">Sữa tắm</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Số người dự đoán tham gia</td>
+                <td>
+                    <input type="text" placeholder="250000">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Đồng ý" id="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
