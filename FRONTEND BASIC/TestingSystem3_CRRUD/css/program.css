@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  text-align: center;
+}
