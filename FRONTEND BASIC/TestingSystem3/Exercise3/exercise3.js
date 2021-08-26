@@ -48,7 +48,7 @@ function Q4(){
     window.alert(text);
 }
 
-function Q6(){
+function Q5(){
     let fullName = prompt("Nhập vào họ và tên của bạn: ");
     let lastName = "";
     let firstName = "";
@@ -81,7 +81,7 @@ function Q6(){
     );
 }
 
-function Q7(){
+function Q6(){
     let fullName = prompt("Nhập họ tên đầy đủ:");
 // remove space characters
     fullName = fullName.trim();
@@ -98,38 +98,49 @@ function Q7(){
     window.alert("Tên sau khi chuẩn hóa: " + fullName);
 }
 
-function Q8(){
+function Q7(){
+    let string1 = prompt("Nhập chuỗi 1:");
+    let string2 = prompt("Nhập chuỗi 2:");
+    let stringCompare ="";
+    for(let i = string1.length;i>=0;i--){
+        stringCompare+=string1.charAt(i);
+    }
+    if(stringCompare == string2){
+        window.alert("Hai chuỗi này là hai chuỗi đảo ngược nhau!");
+    }else{
+        window.alert("Hai chuỗi này không đảo ngược nhau!")
+    }
+}
 
+function Q8(){
+    let string = prompt("Nhập chuỗi:");
+    let number =0;
+    for(let i = 0; i<string.length;i++){
+        if(string.charAt(i)=="a"||string.charAt(i)=="A")
+        {
+            number = number +1;
+        }
+    }
+    window.alert("Chuỗi vừa nhập có "+ number + " ký tự a/A");
 }
 
 function Q9(){
-
+    let string = prompt("Nhập chuỗi:");
+    let stringReverse ="";
+    for(let i = string.length;i>=0;i--){
+        stringReverse+=string.charAt(i);
+    }
+    window.alert("Chuỗi đã đảo ngược là: "+ stringReverse);
 }
 
 function Q10(){
-
-}
-
-function Q11(){
-
-}
-
-function Q12(){
-
-}
-
-function Q13(){
-
-}
-
-function Q14(){
-
-}
-
-function Q15(){
-
-}
-
-function Q16(){
-
+    let string = prompt("Nhập chuỗi: ");
+    let text ="TRUE";
+    for(let i= 0;i< string.length;i++){
+        if(string.charCodeAt(i)>=48&&string.charCodeAt(i)<=57){
+            text = "FALSE"
+            break;
+        }
+    }
+    window.alert(text);
 }
