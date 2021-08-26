@@ -198,17 +198,17 @@ public class Exercise1 {
 // else System.out.println("Phòng ban của nhân viên này là " + account1.department.departmentName);
 //
 //
-// //Question 2:
-// System.out.println("Question 2:");
-// if (account2.groups.length == 0) {
-//     System.out.println("Nhân viên này chưa có group");
-// } else if (account2.groups.length <= 2) {
-//     System.out.println("Group của nhân viên này là Java Fresher, C# Fresher");
-// } else if (account2.groups.length == 3) {
-//     System.out.println("Nhân viên này là người quan trọng, tham gia nhiều group");
-// } else if (account2.groups.length == 4) {
-//     System.out.println("Người này là người hóng chuyện, tham gia tất cả các group");
-// }
+ //Question 2:
+ System.out.println("Question 2:");
+ if (account2.groups.length == 0) {
+     System.out.println("Nhân viên này chưa có group");
+ } else if (account2.groups.length <= 2) {
+     System.out.println("Group của nhân viên này là Java Fresher, C# Fresher");
+ } else if (account2.groups.length == 3) {
+     System.out.println("Nhân viên này là người quan trọng, tham gia nhiều group");
+ } else if (account2.groups.length == 4) {
+     System.out.println("Người này là người hóng chuyện, tham gia tất cả các group");
+ }
 //
 //
 // //Question 3:
