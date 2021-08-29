@@ -1,3 +1,4 @@
+"use strict";
 var departments = [];
 var positions = [];
 var accounts = [];

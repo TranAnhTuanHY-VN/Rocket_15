@@ -1,3 +1,4 @@
+"use strict";
 function Q1(){
     let i = 0 ;
     let text = "";

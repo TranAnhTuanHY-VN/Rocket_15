@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6 - Question 2</title>
+    <script>
+        function getIndex(){
+            "use strict";
+            var departments = ["CEO", "DEV","TEST"];
+            var message;
+            message = document.getElementById("err");
+            message.innerHTML= "";
+            var index = document.getElementById("index").value;
+            try {
+                if(index>=departments.length||index<0){
+                    throw "Cannot find department!";
+                }else{
+                    document.write("<p>"+departments[index]+"<\p>");
+                }
+            } catch (error) {
+                message.innerHTML = "Error: " + error + ".";
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="number" name="index" id="index">
+    <button onclick="getIndex()">Get info</button>
+    <div id="err"></div>
+</body>
+</html>

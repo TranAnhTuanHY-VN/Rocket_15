@@ -1,3 +1,4 @@
+"use strict";
 function countWords(a) {
     if (a == null) {
         return -1;

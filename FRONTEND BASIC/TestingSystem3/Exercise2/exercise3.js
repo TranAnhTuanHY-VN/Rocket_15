@@ -1,3 +1,4 @@
+"use strict";
 function Q1(){
     let x = prompt("Nhập số bất kỳ", '');
     if(x %2 == 0){
