@@ -1,0 +1,15 @@
+<form action="calculating" name="calculator">
+    <span>Number 1:</span>
+    <input type="number" name="num1" id="num1">
+    <br>
+    <span>Number 2:</span>
+    <input type="number" name="num2" id="num2">
+    <br>
+    <input type='button' class="operator" id="+" value='Cộng' onclick="clickMe(this)"/>
+    <input type='button' class="operator" id="-" value='Trừ' onclick="clickMe(this)"/>
+    <input type='button' class="operator" id="x" value='Nhân' onclick="clickMe(this)"/>
+    <input type='button' class="operator" id="/" value='Chia' onclick="clickMe(this)"/>
+    <input type='button' class="operator" id="%" value='Chia dư' onclick="clickMe(this)"/>
+    <span>Kết quả:</span>
+    <div id="result" style="border: 1px solid gray;display:inline-block;width: 100px;"></div>
+</form>

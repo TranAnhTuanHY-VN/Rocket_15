@@ -1,0 +1,36 @@
+<table border="1">
+    <tr>
+        <td>Number 1:</td>
+        <td>
+            <input type="number" name="num1" id="num1">
+        </td>
+    </tr>
+    <tr>
+        <td>Number 2:</td>
+        <td>
+            <input type="number" name="num2" id="num2">
+        </td>
+    </tr>
+    <tr>
+        <td>Option</td>
+        <td>
+            <select name="operator" id="operator">
+                <option value="add">Add</option>
+                <option value="sub">Sub</option>
+                <option value="divide">Divide</option>
+                <option value="multiply">Multiply</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Result</td>
+        <td>
+            <input type="text" id="result" disabled>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <button onclick="calculate()">Calculate</button>
+        </td>
+    </tr>
+</table>
