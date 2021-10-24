@@ -24,7 +24,8 @@ function Employee(id,name,department,phone){
 
 function getListEmployees() {
     // call API from server
-    $.get("https://6123c957124d880017568497.mockapi.io/api/vti/App/user/", function(data, status) {
+    // $.get("https://6123c957124d880017568497.mockapi.io/api/vti/App/user/", function(data, status)
+    $.get("http://localhost:8080/api/v1/employees/", function(data, status) {
 
         // reset list employees
         employees = [];
@@ -103,7 +104,8 @@ function addEmployee(){
         phone: phone
     };
 
-    $.post("https://6123c957124d880017568497.mockapi.io/api/vti/App/user/", employee,
+    // $.post("https://6123c957124d880017568497.mockapi.io/api/vti/App/user/", employee,
+    $.post("http://localhost:8080/api/v1/employees/", employee,
     function(data, status) {
         // error
         if (status == "error") {
@@ -158,7 +160,7 @@ function updateEmployee(){
     };
 
     $.ajax({
-        url: 'https://6123c957124d880017568497.mockapi.io/api/vti/App/user/' + id,
+        url: 'http://localhost:8080/api/v1/employees/' + id,
         type: 'PUT',
         data: employee,
         success: function(result) {
@@ -195,7 +197,7 @@ function deleteEmployee(id){
     // showSuccessAlert();
     // buildTable();
     $.ajax({
-        url: 'https://6123c957124d880017568497.mockapi.io/api/vti/App/user/' + id,
+        url: 'http://localhost:8080/api/v1/employees/' + id,
         type: 'DELETE',
         success: function(result) {
             // error

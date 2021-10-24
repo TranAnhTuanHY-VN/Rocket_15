@@ -1,0 +1,46 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .col {
+    padding: 30px;
+    flex-grow: 1;
+  }
+  
+  .row {
+    margin-top: 16px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  button {
+    margin: 0 8px;
+  }
+  
+  .horizotal .row {
+    display: flex;
+  }
+  
+  .horizotal .left {
+    background-color: red;
+  }
+  
+  .horizotal .center {
+    background-color: green;
+  }
+  
+  .horizotal .right {
+    background-color: blue;
+  }
+
+  .vertical .row .col{
+      background-color: aqua;
+      border: solid 1px;
+  }
+  
+  footer {
+    padding: 30px;
+  }
+  

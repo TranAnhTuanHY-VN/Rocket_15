@@ -74,6 +74,35 @@ function Q4(){
     $("#ques4").load("ques4.html");
 }
 
+function tinhGT(){
+    const n = document.getElementById("num").value;
+    let gt = 1;
+    for(let i = n;i>0;i--){
+        gt = gt *i;
+    }
+    window.alert("Giai thừa của "+n + " là: "+ gt);
+}
+
 function Q5(){
     $("#ques5").load("ques5.html");
 }
+
+function show(){
+    const name = document.getElementById("Name").value;
+    const phone = document.getElementById("Phone").value;
+    const gender = $("input:checked").val();
+    const hobby = $("input[name=hobby]:checked").map(function() {
+        return this.value;
+    }).get().join(",")
+    alert("Họ và tên: " + name+ "\nSố điện thoại: " + phone + "\nGiới tính:" + gender +
+        "\nSở thích: " + hobby);
+}
+
+function Q6(){
+    $("#ques6").load("ques6.html");
+}
+
+function Q9(){
+    $("#ques9").load("ques9.html");
+}
+
