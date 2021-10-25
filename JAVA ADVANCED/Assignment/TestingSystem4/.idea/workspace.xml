@@ -5,124 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6876c7a-a989-492d-adec-48c15f6bab9f" name="Changes" comment="Hibernate">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/ExamRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/GroupRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/IAccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/IDepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/IExamRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/IGroupRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/IPositionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/ISalaryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/PositionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/SalaryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Backend/UsersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Enumerate/PositionName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Enumerate/PositionNameConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Enumerate/SalaryName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Enumerate/SalaryNameConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Generator/ExamCodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Salary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Frontend/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Frontend/DepartmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Frontend/ExamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Frontend/GroupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Frontend/PositionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Frontend/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Frontend/SalaryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vti/Utils/HibernateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Backend/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Backend/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Backend/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Backend/DetailDepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Backend/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Backend/ExamRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Backend/GroupRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Backend/ManagerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Backend/PositionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Backend/SalaryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/DetailDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Enumerate/PositionName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Enumerate/PositionNameConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Enumerate/SalaryName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Enumerate/SalaryNameConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Generator/ExamCodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/GroupAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/PrimaryKey/GroupAccountKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Entity/Salary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Frontend/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Frontend/AddressTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Frontend/DepartmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Frontend/DetailDepartmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Frontend/EmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Frontend/SalaryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/java/org/vti/Utils/HibernateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/src/test/java/org/vti/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/target/classes/org/vti/Backend/DetailDepartmentRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/target/classes/org/vti/Entity/Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/target/classes/org/vti/Entity/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/target/classes/org/vti/Utils/HibernateUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingSystem5/target/test-classes/org/vti/AppTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/src/main/java/com/example/demospring/DemoSpringApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/src/main/java/com/example/demospring/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/src/main/java/com/example/demospring/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/src/main/java/com/example/demospring/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/src/main/java/com/example/demospring/repository/IEmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/src/main/java/com/example/demospring/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/src/main/java/com/example/demospring/service/IEmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/src/main/java/com/example/demospring/utils/HibernateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoSpring/src/test/java/com/example/demospring/DemoSpringApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FRONTEND BASIC/TestingSystem3/Exercise8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FRONTEND BASIC/TestingSystem3/Exercise8/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FRONTEND BASIC/TestingSystem3/Exercise8/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FRONTEND BASIC/TestingSystem3/Exercise8/query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FRONTEND BASIC/TestingSystem3/Exercise8/ques5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FRONTEND BASIC/TestingSystem3/Exercise8/ques5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FRONTEND BASIC/TestingSystem3/Exercise8/ques6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FRONTEND BASIC/TestingSystem3/Exercise8/ques6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FRONTEND BASIC/TestingSystem3/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FRONTEND BASIC/TestingSystem3_CRRUD/js/program.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FRONTEND BASIC/TestingSystem3_CRRUD/js/program.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FRONTEND BASIC/TestingSystem4/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingSystem4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestingSystem4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vti/Entity/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vti/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vti/Repository/GroupRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JAVA BASIC/Assignments/ExtraAssignment/ExtraAssignment2/out/production/ExtraAssignment2/com/company/Exercise1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JAVA BASIC/Assignments/ExtraAssignment/ExtraAssignment2/out/production/ExtraAssignment2/com/company/Exercise1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JAVA BASIC/Assignments/ExtraAssignment/ExtraAssignment2/out/production/ExtraAssignment2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JAVA BASIC/Assignments/ExtraAssignment/ExtraAssignment2/out/production/ExtraAssignment2/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JAVA BASIC/Assignments/ExtraAssignment/ExtraAssignment2/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JAVA BASIC/Assignments/ExtraAssignment/ExtraAssignment2/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../VTI_FinalExam/FinalExam/GroupManagement" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -283,6 +170,8 @@
       <workItem from="1631439257196" duration="1162000" />
       <workItem from="1631527359051" duration="1367000" />
       <workItem from="1632017175639" duration="658000" />
+      <workItem from="1635087785474" duration="1791000" />
+      <workItem from="1635132575411" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="Hibernate">
       <created>1630639446140</created>
